@@ -12,7 +12,7 @@ end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
   # text.match(/^[A-Z].*\W$/) == nil ? false:true
-  text.match?(/^[A-Z].*\W$/)
+  text.match?(/^[A-Z].*\W$/) ? true:false
 end
 
 def valid_phone_number?(phone)
